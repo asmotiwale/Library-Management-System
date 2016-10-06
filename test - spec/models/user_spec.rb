@@ -23,7 +23,4 @@ describe User do
        contact.valid?
        expect(contact.errors[:name]).to include("can't be blank")
      end
-
-
-
 end
